@@ -1,0 +1,38 @@
+html{
+  position: relative;
+  height: 100%;
+}
+body{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+.dentaku_style{
+  background-color: rgb(142, 191, 238);
+  padding: 45px 40px;
+  border-radius: 20px;
+}
+#result{
+  height: 60px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.btn_haichi{
+  margin-top: 20px;
+}
+input{
+  height: 60px;
+  width: 60px;
+  border-radius: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 10px;
+  font-size: 25px;
+  background-color: rgb(250, 236, 218);
+}
+.btn_width{
+  width: 140px;
+}
