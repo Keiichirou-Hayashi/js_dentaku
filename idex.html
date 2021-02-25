@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>電卓</title>
+  </head>
+  <body>
+    <div class="dentaku_style">
+      <input type="text" id="result">
+        <div class="btn_haichi">
+          <input type="button" value="7" onclick="edit(this)">
+          <input type="button" value="8" onclick="edit(this)">
+          <input type="button" value="9" onclick="edit(this)">
+          <input type="button" value="+" onclick="edit(this)">
+        </div>
+        <div>
+          <input type="button" value="4" onclick="edit(this)">
+          <input type="button" value="5" onclick="edit(this)">
+          <input type="button" value="6" onclick="edit(this)">
+          <input type="button" value="-" onclick="edit(this)">
+        </div>
+        <div>
+          <input type="button" value="1" onclick="edit(this)">
+          <input type="button" value="2" onclick="edit(this)">
+          <input type="button" value="3" onclick="edit(this)">
+          <input type="button" value="*" onclick="edit(this)">
+        </div>
+        <div>
+          <input type="button" value="0" onclick="edit(this)">
+          <input type="button" value="00" onclick="edit(this)">
+          <input type="button" value="." onclick="edit(this)">
+          <input type="button" value="/" onclick="edit(this)">
+        </div>
+        <div>
+         <input type="button" class="btn_width" value="AC" onclick="reset()">
+         <input type="button" class="btn_width" value="=" onclick="calc()">
+        </div>
+    </div>
+  <script type="text/javascript" src="main.js" charset="utf-8"></script>
+  </body>
+</html>
