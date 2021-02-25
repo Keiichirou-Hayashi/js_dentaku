@@ -13,5 +13,4 @@ function calc() {
  }
  function reset(){
   result.value = "";
-  elem.value = "";
  }
